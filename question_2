@@ -1,0 +1,8 @@
+
+lst = [1,2,3,4,5,6,7]
+
+def cuberoot(data):
+    return data ** 3
+
+cuberoot_lst = list(map(cuberoot,lst))
+print(cuberoot_lst)
